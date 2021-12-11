@@ -152,19 +152,19 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-第一篇文章" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-异地共屏NCA链路故障" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2021/12/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">第一篇文章</a>
+      <a class="article-title" href="/2021/12/11/%E5%BC%82%E5%9C%B0%E5%85%B1%E5%B1%8FNCA%E9%93%BE%E8%B7%AF%E6%95%85%E9%9A%9C/">第一篇文章</a>
     </h1>
   
 
         
-        <a href="/2021/12/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" class="archive-article-date">
+        <a href="/2021/12/11/%E5%BC%82%E5%9C%B0%E5%85%B1%E5%B1%8FNCA%E9%93%BE%E8%B7%AF%E6%95%85%E9%9A%9C/" class="archive-article-date">
   	<time datetime="2021-12-11T03:35:47.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-12-11</time>
 </a>
         
@@ -172,7 +172,10 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>​    现象：三机同组，分别为A机、B机、C机，C机为新增设备，数据做完后，B机和C机、B机和A机nca链路建立正常，C机和A机链路建立不正常，Nca链路时断时续，CDR记录C机一直向A机拨NDT号码。</p>
+<p>​    解决方法：A机切换机架解决。</p>
+<p>​    问题原因：A机dds2热键组开了21组，低版本系统在超过热键组8组后，每次修改数据都需要切换机架，否则会影响异地共屏数据。</p>
+
       
 
       
@@ -184,7 +187,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2021/12/11/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/">展开全文 >></a>
+          <a class="article-more-a" href="/2021/12/11/%E5%BC%82%E5%9C%B0%E5%85%B1%E5%B1%8FNCA%E9%93%BE%E8%B7%AF%E6%95%85%E9%9A%9C/">展开全文 >></a>
         </p>
       
 
